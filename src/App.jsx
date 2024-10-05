@@ -13,11 +13,11 @@ function App() {
 					<Navbar />
 					<Home />
 				</div>
-				<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+				<div className="blue-gradient">
 					<Visualizations />
+					<Blog />
+					<Links />
 				</div>
-				<Blog />
-				<Links />
 			</div>
 		</Router>
 	);
