@@ -9,6 +9,7 @@ import iconinstagram from "./iconinstagram.svg";
 import iconpinterest from "./iconpinterest.svg";
 import icontwitter from "./icontwitter.svg";
 import iconyoutube from "./iconyoutube.svg";
+import homeVideo from "./homeVideo.mp4";
 export {
 	menu,
 	close,
@@ -21,4 +22,5 @@ export {
 	iconpinterest,
 	icontwitter,
 	iconyoutube,
+	homeVideo,
 };

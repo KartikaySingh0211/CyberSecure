@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { homeVideo } from "../assets";
 
 function Home() {
 	const headingRef = useRef();
@@ -20,9 +21,9 @@ function Home() {
 			ease: "power4.out",
 		});
 		timeline.to(headingRef.current, {
-			y: -300,
+			y: -600,
 			opacity: 0,
-			duration: 1,
+			duration: 2,
 			ease: "power4.inOut",
 		});
 	}, []);
@@ -37,7 +38,7 @@ function Home() {
 						loop
 						muted
 					>
-						<source src="/Videos/homeVideo.mp4" type="video/mp4" />
+						<source src={homeVideo} type="video/mp4" />
 						Your browser does not support HTML video.
 					</video>
 					<div className="gradient-overlay" />
