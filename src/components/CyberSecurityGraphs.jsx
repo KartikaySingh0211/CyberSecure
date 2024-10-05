@@ -219,7 +219,7 @@ const CyberSecurityGraphs = ({
 			<section className="flex flex-col md:flex-row flex-wrap justify-around lg:block items-start">
 				<div
 					id="g1"
-					className="bg-gray-800 p-5 rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
+					className="bg-gray-800 py-5  rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
 				>
 					<h2 className="font-bold text-2xl text-center mb-4">
 						Cyber Security Experts Growth
@@ -229,7 +229,7 @@ const CyberSecurityGraphs = ({
 
 				<div
 					id="g2"
-					className="bg-gray-800 p-5 rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
+					className="bg-gray-800 py-5 rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
 				>
 					<h2 className="font-bold text-2xl text-center mb-4">
 						Cyber Crimes in India
@@ -239,7 +239,7 @@ const CyberSecurityGraphs = ({
 
 				<div
 					id="g3"
-					className="bg-gray-800 p-5 rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
+					className="bg-gray-800 py-5 rounded-3xl mt-8 w-full md:w-8/12 lg:w-5/12"
 				>
 					<h2 className="font-bold text-2xl text-center mb-4">
 						Global Cyber Crime Data
