@@ -41,11 +41,14 @@ function Home() {
 						Your browser does not support HTML video.
 					</video>
 					<div className="gradient-overlay" />
-				</div>
-				<div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
-					<h1 ref={headingRef} className="text-4xl md:text-6xl font-bold mb-6">
-						Welcome to CyberSecure
-					</h1>
+					<div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-6">
+						<h1
+							ref={headingRef}
+							className="text-4xl md:text-6xl font-bold mb-6"
+						>
+							Welcome to CyberSecure
+						</h1>
+					</div>
 				</div>
 				<div ref={endRef} />
 			</section>
