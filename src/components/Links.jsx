@@ -1,3 +1,11 @@
+import {
+	iconfacebook,
+	iconinstagram,
+	iconpinterest,
+	icontwitter,
+	iconyoutube,
+	logo,
+} from "../assets";
 import { SectionWrapper } from "../hoc";
 
 const Links = () => {
@@ -9,47 +17,23 @@ const Links = () => {
 						Copyright &copy; 2024, All Rights Reserved
 					</div>
 					<div className="mt-6 md:mt-0">
-						<img
-							src="../src/assets/logo.jpg"
-							className="h-20 w-20 mb-5"
-							alt="logo"
-						/>
+						<img src={logo} className="h-20 w-20 mb-5" alt="logo" />
 					</div>
 					<div className="flex justify-center space-x-4">
 						<a href="#">
-							<img
-								src="../src/assets/icon-facebook.svg"
-								alt=""
-								className="h-8"
-							/>
+							<img src={iconfacebook} alt="" className="h-8" />
 						</a>
 						<a href="#">
-							<img
-								src="../src/assets/icon-youtube.svg"
-								alt=""
-								className="h-8"
-							/>
+							<img src={iconyoutube} alt="" className="h-8" />
 						</a>
 						<a href="#">
-							<img
-								src="../src/assets/icon-twitter.svg"
-								alt=""
-								className="h-8"
-							/>
+							<img src={icontwitter} alt="" className="h-8" />
 						</a>
 						<a href="#">
-							<img
-								src="../src/assets/icon-pinterest.svg"
-								alt=""
-								className="h-8"
-							/>
+							<img src={iconpinterest} alt="" className="h-8" />
 						</a>
 						<a href="#">
-							<img
-								src="../src/assets/icon-instagram.svg"
-								alt=""
-								className="h-8"
-							/>
+							<img src={iconinstagram} alt="" className="h-8" />
 						</a>
 					</div>
 				</div>
